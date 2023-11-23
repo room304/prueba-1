@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 1rem;
+    overflow: ;
+}
+
+/*-------------------------------------------------------------*/
+
+header{
+    text-align: center;
+    color: white;
+
+    /*--opacidad-negro: 0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("")*/
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 380px;
+}
+
+
+.nav1, .nav2, .nav3{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 20px;
+    margin: 20px 60px;
+}
+
+.nav1:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+.linea_nav{
+    margin: auto;
+    position: relative;
+    top: 36px;
+}
+
+.p1_head{
+    text-shadow: 0px 0px 10px black;
+    font-size: 6rem;
+    position: relative;
+    top:36px;
+}
+
+.boton1_H{
+    color: white;
+    padding: 15px 80px;
+    background-color: rgba(240, 240, 240, 0.40);
+    border: 1px solid rgba(255, 255, 255, 0.404);
+    position: relative;
+    top:36px;
+}
+
+.boton1_H:hover{
+    background-color: rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+}
+
+.boton2_H{
+
+    padding: 30px 30px;
+    border-radius: 100%;
+    border: 0px solid rgb(255, 255, 255);
+    margin: 20px;
+    background-image: url(https://cdn-icons-png.flaticon.com/128/8029/8029490.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    filter: invert(100%);
+    opacity: 75%;
+    position: relative;
+    top:36px;
+}
+
+.boton2_H:hover{
+    filter: invert(0%);
+    cursor: pointer;
+}
+
+/*-------------------------------------------------------------*/
+.h1_sec1{
+    font-size: 2rem;
+    font-weight: lighter;
+    text-align: center;
+    padding: 30px;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td{
+    border-bottom: solid 1px rgb(0, 0, 0);
+}
+
+table td:first-child {
+    width: 100px;
+    font-weight: 700;
+}
+
+table td:nth-child(2) {
+    width: 220px;
+}
+ 
+table td:nth-child(3) {
+    width: 300px;
+}
+
+table td:last-child {
+    width: 178px;
+    height: 3rem;
+}
+
+.linea1_sec1, .linea2_sec1{
+    border-bottom: solid 2px rgb(0, 0, 0);
+}
+
+.linea3_sec1{
+    border-bottom: solid 2px rgb(255, 255, 255);
+}
+
+.boton_sec1{ 
+    color: white;
+    background-color: rgb(30, 191, 255);
+    position: relative;
+    padding: 5px;  
+    border-radius: 5px;
+}
+
+.boton_sec1:hover{
+    background-color: rgb(4, 113, 156);
+    cursor: pointer;
+}
+
+/*-------------------------------------------------------------*/
+
+footer{
+    position:relative;
+    top: 19px;
+    padding: 30px 0px;
+    background-color: black;
+    color: white;
+}
+
+div{
+    width: 798px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*.img_foot{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    left:440px;
+    margin: 0px 6px;
+}*/
+
+.text1_foot{
+    display: inline-block;
+    text-align:left;
+    font-size: 3rem;
+    font-weight:lighter;
+}
+
+.boton1_foot{
+    background-image: url(https://raw.githubusercontent.com/WebDevSimplified/Introduction-to-Web-Development/master/Introduction%20to%20CSS/Lesson%203/Images/Youtube%20Logo.png);
+    
+    padding: 15px 15px;
+    margin: 0px 10px ;
+    background-repeat: no-repeat;
+    background-size:  contain;
+    
+    position: relative;
+    left:405px;
+}
+
+.boton2_foot{
+    background-image: url(https://raw.githubusercontent.com/WebDevSimplified/Introduction-to-Web-Development/master/Introduction%20to%20CSS/Lesson%203/Images/Spotify%20Logo.png);
+    
+    padding: 15px 15px;
+    margin: 0px 10px ;
+    background-repeat: no-repeat;
+    background-size:  contain;
+
+    position: relative;
+    left:425px;
+}
+
+.boton3_foot{
+    background-image: url(https://raw.githubusercontent.com/WebDevSimplified/Introduction-to-Web-Development/master/Introduction%20to%20CSS/Lesson%203/Images/Facebook%20Logo.png);
+    
+    padding: 15px 15px;
+    margin: 0px 10px ;
+    background-repeat: no-repeat;
+    background-size:  contain;
+
+    position: relative;
+    left:445px;
+}
+
+
+.boton1_foot:hover{
+    border-bottom: 2px solid red;
+}
+
+.boton2_foot:hover{
+    border-bottom: 2px solid green;
+}
+
+.boton3_foot:hover{
+    border-bottom: 2px solid rgb(0, 68, 255);
+}
